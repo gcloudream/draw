@@ -4,38 +4,40 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-1" target="9SA8shca4YkV5s7Sw7UC-2">
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-14" target="9SA8shca4YkV5s7Sw7UC-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-1" target="9SA8shca4YkV5s7Sw7UC-3">
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-12" value="&#xa;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;网络输入模态&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-13" value="&#xa;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;基于单模态&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-14" target="9SA8shca4YkV5s7Sw7UC-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-1" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;基于深度学习的形状补全方法&lt;/strong&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="230" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ul&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ufd0a2c70&quot;&gt;&lt;strong&gt;基于二维形状描述符的方法&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="140" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-3" target="9SA8shca4YkV5s7Sw7UC-7">
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-14" target="9SA8shca4YkV5s7Sw7UC-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-3" target="9SA8shca4YkV5s7Sw7UC-6">
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-14" target="9SA8shca4YkV5s7Sw7UC-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-3" target="9SA8shca4YkV5s7Sw7UC-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-14" value="&lt;br&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;基于多模态&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-3" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ul&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u03b984ae&quot;&gt;&lt;strong&gt;基于三维形状描述符的方法&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="200" height="50" as="geometry" />
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-18" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;视觉引导补全&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-6" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;体素&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="230" width="180" height="60" as="geometry" />
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-19" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;扩散模型驱动补全&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-7" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;点云&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="305" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9SA8shca4YkV5s7Sw7UC-8" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;隐式&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="380" width="180" height="60" as="geometry" />
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-20" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;多模态大模型融合&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
