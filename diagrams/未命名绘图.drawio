@@ -30,14 +30,32 @@
         <mxCell id="9SA8shca4YkV5s7Sw7UC-14" value="&lt;br&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;基于多模态&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="320" width="110" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-18" target="9SA8shca4YkV5s7Sw7UC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9SA8shca4YkV5s7Sw7UC-18" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;视觉引导补全&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-19" target="9SA8shca4YkV5s7Sw7UC-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9SA8shca4YkV5s7Sw7UC-19" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;扩散模型驱动补全&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SA8shca4YkV5s7Sw7UC-20" target="9SA8shca4YkV5s7Sw7UC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9SA8shca4YkV5s7Sw7UC-20" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;多模态大模型融合&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-24" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;借助视觉信息辅助残缺点云补全，通过跨模态特征对齐增强几何细节&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-27" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;基于噪音-去噪的扩散过程生成完整点云，支持多模态条件输入&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SA8shca4YkV5s7Sw7UC-28" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;融入预训练大模型的语义信息，实现跨模态生成控制&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
