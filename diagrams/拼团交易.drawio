@@ -21,11 +21,104 @@
         <mxCell id="Umt8qjXu04HkU_3NXS48-7" value="微信扫码登陆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Umt8qjXu04HkU_3NXS48-10" value="展示商品信息index.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Umt8qjXu04HkU_3NXS48-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-10" target="Umt8qjXu04HkU_3NXS48-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-10" target="Umt8qjXu04HkU_3NXS48-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="380" />
+              <mxPoint x="710" y="520" />
+              <mxPoint x="760" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-10" value="进入商品界面，&lt;div&gt;展示商品信息index.html&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Umt8qjXu04HkU_3NXS48-13" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;根据微信扫码获得userID,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;向拼团服务发送拼团配置请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;/api/v1/gbm/index/query_group_buy_market_config，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;参数为{userid,soiurce,channel,goodsId}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;返回折扣价格和拼团组队信息&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="310" height="90" as="geometry" />
+        <mxCell id="Umt8qjXu04HkU_3NXS48-13" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;根据微信扫码获得userID,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;向拼团服务发送拼团配置请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;/api/v1/gbm/index/query_group_buy_market_config&lt;span style=&quot;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#56a8f5;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;参数为&lt;/span&gt;{userid,soiurce,channel,goodsId}&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;返回折扣价格和拼团组队信息&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="255" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-14" target="Umt8qjXu04HkU_3NXS48-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-14" value="选择组队或开团购买" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-15" target="Umt8qjXu04HkU_3NXS48-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-15" value="单独购买" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-18" target="Umt8qjXu04HkU_3NXS48-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-26" value="取消支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Umt8qjXu04HkU_3NXS48-25">
+          <mxGeometry x="0.1143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-18" target="Umt8qjXu04HkU_3NXS48-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-29" value="确认支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Umt8qjXu04HkU_3NXS48-28">
+          <mxGeometry y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-18" value="确认支付界面，显示支付价格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-20" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;向交易系统发送请求&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;/api/v1/alipay/create_pay_order&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;userId&lt;/span&gt;: &lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;userId&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;productId&lt;/span&gt;: &lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;goods&lt;/span&gt;.&lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;goodsId&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;teamId&lt;/span&gt;: &lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;teamId&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;activityId&lt;/span&gt;: &lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;activityId&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;marketType&lt;/span&gt;: &lt;span style=&quot;color: rgb(42, 172, 184);&quot;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;返回HTML字符串,用于显示支付宝支付界面&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="90" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-23" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;向交易系统发起请求&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(106, 171, 115);&quot;&gt;/api/v1/alipay/create_pay_order&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;userId&lt;/span&gt;: &lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;userId&lt;/span&gt;,&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse; color: rgb(199, 125, 187);&quot;&gt;productId&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse; color: rgb(169, 183, 198);&quot;&gt;goods&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse; color: rgb(169, 183, 198);&quot;&gt;goodsId&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space-collapse: collapse;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;marketType&lt;/span&gt;: &lt;span style=&quot;color: rgb(42, 172, 184);&quot;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;返回HTML字符串,用于显示支付宝支付界面&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="340" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-24" value="交易服务定时任务：超时订单关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-27" value="登录卖家账号，支付成功后，跳转界面index.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-30" target="Umt8qjXu04HkU_3NXS48-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-33" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;支付后等待回调信息，&lt;/span&gt;&lt;div style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;支付宝发送回调信息到交易服务&lt;/div&gt;&lt;div style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(95, 130, 107); font-style: italic;&quot;&gt;api/v1/alipay/alipay_notify_url&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(95, 130, 107); font-style: italic;&quot;&gt;支付宝回调参数包括订单相关信息&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Umt8qjXu04HkU_3NXS48-32">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-30" value="支付宝发送回调信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-31" target="Umt8qjXu04HkU_3NXS48-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-40" value="拼团完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Umt8qjXu04HkU_3NXS48-39">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-31" value="修改用户订单和拼团状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-34" target="Umt8qjXu04HkU_3NXS48-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-42" value="由拼团服务，发送回调信息&lt;div&gt;&lt;div style=&quot;background-color: rgb(30, 31, 34);&quot;&gt;&lt;pre style=&quot;color: rgb(188, 190, 196); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#5f826b;font-style:italic;&quot;&gt;api/v1/alipay/group_buy_notify &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font color=&quot;#5f826b&quot;&gt;&lt;i&gt;参数{teamid,outTradeNoList}&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Umt8qjXu04HkU_3NXS48-41">
+          <mxGeometry x="0.181" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-34" value="拼团回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Umt8qjXu04HkU_3NXS48-37" value="修改拼团用户订单状态，&lt;div&gt;模拟发货&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
