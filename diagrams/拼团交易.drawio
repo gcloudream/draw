@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2518" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2032" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,52 +276,52 @@
         <mxCell id="jHU1XFXNSnpsu10a9WZG-20" value="乐观锁，多个线程可直接获取不同的occupy(库存ID),使用redissonService.incr&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;原子操作，可保证每个线程获取的occupy不同，极端情况下还有兜底方案保证&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-220" y="1745" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-1" target="GH-i1xUSZR8R6n3yKuwL-2">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-1" target="GH-i1xUSZR8R6n3yKuwL-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-1" value="缓存/数据库&lt;div&gt;降级&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-1" value="缓存/数据库&lt;div&gt;降级&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="480" y="2320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-2" target="GH-i1xUSZR8R6n3yKuwL-17">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-2" target="GH-i1xUSZR8R6n3yKuwL-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;降级&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u2ac4f90e&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;降级的使用场景&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;uf015c194&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;场景一：缓存降级（项目中使用）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u8174d8dd&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;缓存不可用，流量也没那么大，切换到库上处理即可。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u836603f4&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;场景二：数据库降级&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;ud827d88c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;只从缓存获取，缓存没有，不操作数据库&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;降级&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u2ac4f90e&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;降级的使用场景&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;uf015c194&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;场景一：缓存降级（项目中使用）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u8174d8dd&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;缓存不可用，流量也没那么大，切换到库上处理即可。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u836603f4&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;场景二：数据库降级&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;ud827d88c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;只从缓存获取，缓存没有，不操作数据库&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="755" y="2270" width="335" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-4" target="GH-i1xUSZR8R6n3yKuwL-5">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-4" target="GH-i1xUSZR8R6n3yKuwL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-9" value="缓存未降级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GH-i1xUSZR8R6n3yKuwL-7">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-9" value="缓存未降级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GH-i1xUSZR8R6n3yKuwL-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1692" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-8" value="缓存降级" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-4" target="GH-i1xUSZR8R6n3yKuwL-6">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-8" value="缓存降级" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-4" target="GH-i1xUSZR8R6n3yKuwL-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-4" value="查询数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-4" value="查询数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-5" target="GH-i1xUSZR8R6n3yKuwL-6">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-5" target="GH-i1xUSZR8R6n3yKuwL-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-11" value="缓存未命中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GH-i1xUSZR8R6n3yKuwL-10">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-11" value="缓存未命中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GH-i1xUSZR8R6n3yKuwL-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1333" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-5" target="GH-i1xUSZR8R6n3yKuwL-4">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-5" target="GH-i1xUSZR8R6n3yKuwL-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-13" value="缓存命中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GH-i1xUSZR8R6n3yKuwL-12">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-13" value="缓存命中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GH-i1xUSZR8R6n3yKuwL-12" vertex="1" connectable="0">
           <mxGeometry x="-0.0552" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-5" value="从缓存获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-5" value="从缓存获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GH-i1xUSZR8R6n3yKuwL-6" target="GH-i1xUSZR8R6n3yKuwL-4">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GH-i1xUSZR8R6n3yKuwL-6" target="GH-i1xUSZR8R6n3yKuwL-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1010" y="2490" />
@@ -329,22 +329,61 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-15" value="写入缓存，返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GH-i1xUSZR8R6n3yKuwL-14">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-15" value="写入缓存，返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GH-i1xUSZR8R6n3yKuwL-14" vertex="1" connectable="0">
           <mxGeometry x="-0.1509" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-6" value="从数据库获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-6" value="从数据库获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;缓存-数据库同步&lt;/h1&gt;&lt;p&gt;当修改数据库数据时，删除缓存记录，或者更新缓存&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;缓存-数据库同步&lt;/h1&gt;&lt;p&gt;当修改数据库数据时，删除缓存记录，或者更新缓存&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1210" y="2300" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-21" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-21" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="2470" width="530" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="GH-i1xUSZR8R6n3yKuwL-22" value="抽象为函数式编程，让所有场景都以统一的方式使用，&lt;div&gt;使用java.util.function.Supplier实现这一功能&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="GH-i1xUSZR8R6n3yKuwL-22" value="抽象为函数式编程，让所有场景都以统一的方式使用，&lt;div&gt;使用java.util.function.Supplier实现这一功能&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="2630" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-1" value="拼团-交易系统" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-2" value="扳手组件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wW8FfwEL6XwRpyT2PgOb-3" target="wW8FfwEL6XwRpyT2PgOb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wW8FfwEL6XwRpyT2PgOb-3" target="wW8FfwEL6XwRpyT2PgOb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wW8FfwEL6XwRpyT2PgOb-3" target="wW8FfwEL6XwRpyT2PgOb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-3" value="扳手组件&lt;div&gt;xfg-wrench&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wW8FfwEL6XwRpyT2PgOb-4" target="wW8FfwEL6XwRpyT2PgOb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-4" value="xfg-wrench-starter-dynamic-config-center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="220" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="300" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="380" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wW8FfwEL6XwRpyT2PgOb-10" target="wW8FfwEL6XwRpyT2PgOb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-10" value="加载redission Bean&lt;div&gt;加载自定义注解@DccValue&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="227.5" width="210" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="wW8FfwEL6XwRpyT2PgOb-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPI机制&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: PingFangSC-Regular, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial, sans-serif; font-size: 14px; font-variant-ligatures: none; white-space-collapse: break-spaces; background-color: rgb(255, 255, 255);&quot;&gt;以 SPI 机制，实现组件入口类的注册。驱动注册中心和 Spring 容器工作。也就是工程的 &lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; border: 0px; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 0.875em; margin: 0px; padding: 0px; font-variant-ligatures: none; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(94, 129, 172); letter-spacing: -0.025em; --tw-text-opacity: 1; white-space-collapse: break-spaces; background-color: rgb(255, 255, 255);&quot; class=&quot;font-mono text-nord10 tracking-tight dark:text-nord8&quot;&gt;META-INF/spring.factories&lt;/code&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: PingFangSC-Regular, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial, sans-serif; font-size: 14px; font-variant-ligatures: none; white-space-collapse: break-spaces; background-color: rgb(255, 255, 255);&quot;&gt; 文件里配置的类，会被引入此组件的其他 SpringBoot 应用进行调用启动&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="190" width="380" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
