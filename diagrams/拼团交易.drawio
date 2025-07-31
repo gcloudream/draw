@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3016" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2068" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -621,85 +621,88 @@
         <mxCell id="hvCySMeJ5sFt88a-aLn--18" value="日志ELK +AI MCP索引" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-1" value="内网穿透" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-1" value="内网穿透" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2090" y="-940" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-2" target="fj_iGNWCrx8FcytVWKkn-3">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-2" target="fj_iGNWCrx8FcytVWKkn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-5" value="转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fj_iGNWCrx8FcytVWKkn-4">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-5" value="转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fj_iGNWCrx8FcytVWKkn-4" vertex="1" connectable="0">
           <mxGeometry x="-0.119" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-2" value="服务器端口8987" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-2" value="服务器端口8987" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2090" y="-830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-3" value="内网端口8089" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-3" value="内网端口8089" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2350" y="-830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-6" target="fj_iGNWCrx8FcytVWKkn-2">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-6" target="fj_iGNWCrx8FcytVWKkn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-6" value="普罗米修斯监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-6" value="普罗米修斯监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2090" y="-680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-8" target="fj_iGNWCrx8FcytVWKkn-3">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-8" target="fj_iGNWCrx8FcytVWKkn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-8" value="服务本地运行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-8" value="服务本地运行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2350" y="-680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-10" value="普罗米修斯监控" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-10" value="普罗米修斯监控" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-620" y="3880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-13">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-12">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-14">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-11" target="fj_iGNWCrx8FcytVWKkn-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-11" value="服务器端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-11" value="服务器端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="4030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-12" target="fj_iGNWCrx8FcytVWKkn-19">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-12" target="fj_iGNWCrx8FcytVWKkn-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-12" value="安装docker&lt;div&gt;prometheus&lt;/div&gt;&lt;div&gt;数据采集&lt;/div&gt;&lt;div&gt;项目运行监控面板&lt;/div&gt;&lt;div&gt;117.72.196.48:9090&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-12" value="安装docker&lt;div&gt;prometheus&lt;/div&gt;&lt;div&gt;数据采集&lt;/div&gt;&lt;div&gt;项目运行监控面板&lt;/div&gt;&lt;div&gt;117.72.196.48:9090&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-430" y="3920" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-13" target="fj_iGNWCrx8FcytVWKkn-21">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-13" target="fj_iGNWCrx8FcytVWKkn-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-13" value="grafana&lt;div&gt;监控面板&lt;/div&gt;&lt;div&gt;117.72.196.48:3000&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-13" value="grafana&lt;div&gt;监控面板&lt;/div&gt;&lt;div&gt;117.72.196.48:3000&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-429" y="4030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-14" value="grafana-mcp&lt;div&gt;监控服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-14" value="grafana-mcp&lt;div&gt;监控服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-429" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载配置文件Prometheus.yml&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;监控服务名称&lt;/li&gt;&lt;li&gt;监控服务的 ip:port，这里端口采用服务器搭建的内网穿透端口8987-&amp;gt;本地8091&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载配置文件Prometheus.yml&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;监控服务名称&lt;/li&gt;&lt;li&gt;监控服务的 ip:port，这里端口采用服务器搭建的内网穿透端口8987-&amp;gt;本地8091&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-170" y="3915" width="470" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载grafana.ini&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;grafana的mysql数据库&lt;/li&gt;&lt;li&gt;监控面板的登录信息&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载grafana.ini&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;grafana的mysql数据库&lt;/li&gt;&lt;li&gt;监控面板的登录信息&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-170" y="4020" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-23" target="fj_iGNWCrx8FcytVWKkn-24">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fj_iGNWCrx8FcytVWKkn-23" target="fj_iGNWCrx8FcytVWKkn-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-23" value="本地项目运行端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-23" value="本地项目运行端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="4260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-24" value="引入pom&lt;div&gt;写入yml相关配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-24" value="引入pom&lt;div&gt;写入yml相关配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-430" y="4260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-26" value="本地运行后，启动内网穿透服务，向服务器注册内网穿透ip端口信息。prometheus通过配置的监控ip:port，通过内网穿透监控本地项目运行信息，可以登录prometheus监控面板查看是否监控成功。应用 → Prometheus → Grafana → 用户仪表盘，grafana在监控面板添加prometheus的数据源，就可以显示监控得到的信息。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-26" value="本地运行后，启动内网穿透服务，向服务器注册内网穿透ip端口信息。prometheus通过配置的监控ip:port，通过内网穿透监控本地项目运行信息，可以登录prometheus监控面板查看是否监控成功。应用 → Prometheus → Grafana → 用户仪表盘，grafana在监控面板添加prometheus的数据源，就可以显示监控得到的信息。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-640" y="4340" width="850" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-27" value="监控面板117.72.196.48:7500" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-27" value="监控面板117.72.196.48:7500" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2220" y="-915" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tprZTOVGlat9Swg2gu73-1" value="ELK、prometheus的AI MCP集成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="-570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
