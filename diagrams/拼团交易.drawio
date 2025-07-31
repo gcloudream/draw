@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3271" dy="2408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3016" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,10 +680,10 @@
         <mxCell id="fj_iGNWCrx8FcytVWKkn-14" value="grafana-mcp&lt;div&gt;监控服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-429" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载配置文件Prometheus.yml&lt;/h1&gt;&lt;div&gt;监控服务名称&lt;/div&gt;&lt;div&gt;监控服务的 ip:port，这里端口采用服务器搭建的内网穿透端口8987-&amp;gt;本地8091&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="3915" width="430" height="90" as="geometry" />
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载配置文件Prometheus.yml&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;监控服务名称&lt;/li&gt;&lt;li&gt;监控服务的 ip:port，这里端口采用服务器搭建的内网穿透端口8987-&amp;gt;本地8091&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="3915" width="470" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载grafana.ini&lt;/h1&gt;&lt;div&gt;grafana的mysql数据库&lt;/div&gt;&lt;div&gt;监控面板的登录信息&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;挂载grafana.ini&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;grafana的mysql数据库&lt;/li&gt;&lt;li&gt;监控面板的登录信息&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="4020" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fj_iGNWCrx8FcytVWKkn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fj_iGNWCrx8FcytVWKkn-23" target="fj_iGNWCrx8FcytVWKkn-24">
@@ -695,7 +695,7 @@
         <mxCell id="fj_iGNWCrx8FcytVWKkn-24" value="引入pom&lt;div&gt;写入yml相关配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="4260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fj_iGNWCrx8FcytVWKkn-26" value="本地运行后，启动内网床头服务，向服务器注册内网穿透信息。prometheus通过配置的监控ip:port，通过内网穿透监控本地i选哪个木运行信息，可以登录prometheus监控面板查看是否监控成功。应用 → Prometheus → Grafana → 用户仪表盘，grafana在监控面板添加prometheus的数据源，就可以显示监控得到的信息。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fj_iGNWCrx8FcytVWKkn-26" value="本地运行后，启动内网穿透服务，向服务器注册内网穿透ip端口信息。prometheus通过配置的监控ip:port，通过内网穿透监控本地项目运行信息，可以登录prometheus监控面板查看是否监控成功。应用 → Prometheus → Grafana → 用户仪表盘，grafana在监控面板添加prometheus的数据源，就可以显示监控得到的信息。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-640" y="4340" width="850" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fj_iGNWCrx8FcytVWKkn-27" value="监控面板117.72.196.48:7500" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
