@@ -790,7 +790,7 @@
         <mxCell id="jMulSmVrZCIn3rS9HOym-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-30" target="jMulSmVrZCIn3rS9HOym-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量、完成量，向交易服务发送退单MQ。支付宝回调退款，允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量、完成量，向交易服务发送退单MQ。交易服务接收到MQ，支付宝回调退款。允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="277.25" width="295" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量，支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
