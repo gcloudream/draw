@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="4001" dy="2771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2032" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gOFJ3pZd5_E2-Kozvn-Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Umt8qjXu04HkU_3NXS48-34" target="gOFJ3pZd5_E2-Kozvn-Z-1">
+        <mxCell id="gOFJ3pZd5_E2-Kozvn-Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="Umt8qjXu04HkU_3NXS48-34" target="gOFJ3pZd5_E2-Kozvn-Z-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Umt8qjXu04HkU_3NXS48-34" value="拼团回调" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -796,13 +796,13 @@
         <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量、完成量，向交易服务发送退单MQ。交易服务接收到MQ，支付宝回调退款。允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="277.25" width="295" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量，支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量、完成量、组队状态，发送回调MQ。支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="349.75" width="295" height="35" as="geometry" />
         </mxCell>
         <mxCell id="jMulSmVrZCIn3rS9HOym-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;用户/拼团 优先级&lt;/h1&gt;&lt;div&gt;对于已支付未拼团的退单场景。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;一种方式是先退用户退款，然后再退拼团，此时用户优先，如果此时有多个其他成员向入团可能受限。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;另一种方式先优先组队团队，再给个人退款。&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1570" y="215" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="gOFJ3pZd5_E2-Kozvn-Z-1" value="系统回调功能，会先将回调任务写入到本地消息任务表，然后通过直接或间接使用本地任务表来执行回调任务，这样可以增强鲁棒性，防止直接发送回调消息丢失。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gOFJ3pZd5_E2-Kozvn-Z-1" value="系统回调功能，会先将回调任务写入到本地消息任务表，然后通过直接或间接使用本地任务表来执行回调任务，这样可以增强鲁棒性，防止直接发送回调消息丢失。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="568.75" y="110" width="552.5" height="40" as="geometry" />
         </mxCell>
       </root>
