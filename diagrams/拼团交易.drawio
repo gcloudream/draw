@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="5423" dy="3571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1828" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -698,105 +698,105 @@
         <mxCell id="tprZTOVGlat9Swg2gu73-1" value="ELK、prometheus的AI MCP集成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-1" target="jMulSmVrZCIn3rS9HOym-2">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-1" target="jMulSmVrZCIn3rS9HOym-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-365" y="260" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-2" target="jMulSmVrZCIn3rS9HOym-5">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-2" target="jMulSmVrZCIn3rS9HOym-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-7" value="读入信息&lt;div&gt;userId&lt;/div&gt;&lt;div&gt;outTradeNo&lt;/div&gt;&lt;div&gt;source&lt;/div&gt;&lt;div&gt;channel&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jMulSmVrZCIn3rS9HOym-6">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-7" value="读入信息&lt;div&gt;userId&lt;/div&gt;&lt;div&gt;outTradeNo&lt;/div&gt;&lt;div&gt;source&lt;/div&gt;&lt;div&gt;channel&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jMulSmVrZCIn3rS9HOym-6" vertex="1" connectable="0">
           <mxGeometry x="-0.2065" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-2" value="用户退单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-2" value="用户退单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-245" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-5" target="jMulSmVrZCIn3rS9HOym-8">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-5" target="jMulSmVrZCIn3rS9HOym-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-5" value="进入&lt;div&gt;TradeRefundOrderService&lt;/div&gt;&lt;div&gt;-&amp;gt;refundOrder&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-5" value="进入&lt;div&gt;TradeRefundOrderService&lt;/div&gt;&lt;div&gt;-&amp;gt;refundOrder&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-30" y="260" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-8" target="jMulSmVrZCIn3rS9HOym-10">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-8" target="jMulSmVrZCIn3rS9HOym-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-12" value="重复退单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jMulSmVrZCIn3rS9HOym-11">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-12" value="重复退单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jMulSmVrZCIn3rS9HOym-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0452" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-8" target="jMulSmVrZCIn3rS9HOym-13">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-8" target="jMulSmVrZCIn3rS9HOym-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-15" value="获取用户是否支付&lt;div&gt;及是否成团信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jMulSmVrZCIn3rS9HOym-14">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-15" value="获取用户是否支付&lt;div&gt;及是否成团信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jMulSmVrZCIn3rS9HOym-14" vertex="1" connectable="0">
           <mxGeometry x="-0.032" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-8" value="查询用户拼团订单信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-8" value="查询用户拼团订单信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-10" value="结束，返回退单信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-10" value="结束，返回退单信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-13" target="jMulSmVrZCIn3rS9HOym-22">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-13" target="jMulSmVrZCIn3rS9HOym-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-13" value="判断退单策略，使用策略模式获取退款类型。&lt;div&gt;RefundTypeEnumVO退单策略模式枚举类，设置了三种退单策略的匹配方法。通过用户支付和成团状态得到退款策略&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-13" value="判断退单策略，使用策略模式获取退款类型。&lt;div&gt;RefundTypeEnumVO退单策略模式枚举类，设置了三种退单策略的匹配方法。通过用户支付和成团状态得到退款策略&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="480" y="235" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-16" target="jMulSmVrZCIn3rS9HOym-28">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-16" target="jMulSmVrZCIn3rS9HOym-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-16" value="未支付、未成团&lt;div&gt;Unpaid2RefundStartegy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-16" value="未支付、未成团&lt;div&gt;Unpaid2RefundStartegy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="182.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-17" target="jMulSmVrZCIn3rS9HOym-30">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-17" target="jMulSmVrZCIn3rS9HOym-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-17" value="已支付、未成团&lt;div&gt;Paid2RefundStartegy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-17" value="已支付、未成团&lt;div&gt;Paid2RefundStartegy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="259.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-18" target="jMulSmVrZCIn3rS9HOym-32">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-18" target="jMulSmVrZCIn3rS9HOym-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-18" value="已支付、已成团&lt;div&gt;PaidTeam2RefundStategy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-18" value="已支付、已成团&lt;div&gt;PaidTeam2RefundStategy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="337.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-17">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-18">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-22" value="退单接口&lt;div&gt;IRefundOrderStrategy&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-22" value="退单接口&lt;div&gt;IRefundOrderStrategy&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-16">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-22" target="jMulSmVrZCIn3rS9HOym-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-27" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jMulSmVrZCIn3rS9HOym-26">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-27" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jMulSmVrZCIn3rS9HOym-26" vertex="1" connectable="0">
           <mxGeometry x="-0.7762" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-28" value="更新个人明细订单状态， status=2 代表用户退单，&lt;div&gt;更新组队锁单量，&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-28" value="更新个人明细订单状态， status=2 代表用户退单，&lt;div&gt;更新组队锁单量，&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="202.75" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-30" target="jMulSmVrZCIn3rS9HOym-34">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jMulSmVrZCIn3rS9HOym-30" target="jMulSmVrZCIn3rS9HOym-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量，支付宝回调退款，允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量、完成量，向交易服务发送退单MQ。支付宝回调退款，允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="277.25" width="295" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量，支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量，支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="349.75" width="295" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="jMulSmVrZCIn3rS9HOym-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;用户/拼团 优先级&lt;/h1&gt;&lt;div&gt;对于已支付未拼团的退单场景。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;一种方式是先退用户退款，然后再退拼团，此时用户优先，如果此时有多个其他成员向入团可能受限。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;另一种方式先优先组队团队，再给个人退款。&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jMulSmVrZCIn3rS9HOym-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;用户/拼团 优先级&lt;/h1&gt;&lt;div&gt;对于已支付未拼团的退单场景。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;一种方式是先退用户退款，然后再退拼团，此时用户优先，如果此时有多个其他成员向入团可能受限。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;另一种方式先优先组队团队，再给个人退款。&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1570" y="215" width="240" height="150" as="geometry" />
         </mxCell>
       </root>
