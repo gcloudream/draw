@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1863" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2268" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -796,7 +796,7 @@
         <mxCell id="jMulSmVrZCIn3rS9HOym-30" value="更新个人订单明细，组队锁单量、完成量，向交易服务发送退单MQ。交易服务接收到MQ，支付宝回调退款。允许继续队伍加入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1145" y="277.25" width="295" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="fJeDDStKqax1AdTFYKOW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jMulSmVrZCIn3rS9HOym-32" target="jMulSmVrZCIn3rS9HOym-34">
+        <mxCell id="fJeDDStKqax1AdTFYKOW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="jMulSmVrZCIn3rS9HOym-32" target="jMulSmVrZCIn3rS9HOym-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jMulSmVrZCIn3rS9HOym-32" value="更新个人订单明细，组队锁单量、完成量、组队状态，发送回调MQ。支付宝回调退款，不允许队伍加入。一般已成团的队伍，一人退单，其他人不会被退单，成本由商家和平台承受" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -808,13 +808,13 @@
         <mxCell id="gOFJ3pZd5_E2-Kozvn-Z-1" value="系统回调功能，会先将回调任务写入到本地消息任务表，然后通过直接或间接使用本地任务表来执行回调任务，这样可以增强鲁棒性，防止直接发送回调消息丢失。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="568.75" y="110" width="552.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fJeDDStKqax1AdTFYKOW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fJeDDStKqax1AdTFYKOW-3">
+        <mxCell id="fJeDDStKqax1AdTFYKOW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="fJeDDStKqax1AdTFYKOW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1280" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fJeDDStKqax1AdTFYKOW-3" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;NotifyTask加入uuid来分辨退单回调任务，&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;避免通过使用teamId分辨，&lt;div&gt;导致同一队伍多个成员退单失败&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="90" width="240" height="50" as="geometry" />
+        <mxCell id="fJeDDStKqax1AdTFYKOW-3" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;NotifyTask加入uuid来分辨退单回调任务，避免重复发送，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;同时&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;避免通过使用teamId分辨，&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;div&gt;导致同一队伍多个成员退单失败&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="90" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
