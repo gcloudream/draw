@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="4001" dy="3871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2908" dy="3312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -928,52 +928,75 @@
         <mxCell id="R_PXhzeGYwS1wdTC4ESc-32" value="通过MQ重试机制和分布式锁的配合使用，实现了恢复的最终一致性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="877.5" y="-60" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-1" target="biKXRZFIHFBRoBO44sOl-2">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-1" target="biKXRZFIHFBRoBO44sOl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-1" target="biKXRZFIHFBRoBO44sOl-4">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-1" target="biKXRZFIHFBRoBO44sOl-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-1" value="退单业务重构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-1" value="退单业务重构" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-417" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;原模式&lt;/h1&gt;&lt;div&gt;TradeRefundOredrService通过直接调用方法，进行查询数据库，过滤，再根据策略模式得到对应策略类型，直接执行退单流程。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;且三种退单策略，都包含了MQ消息发送和库存量恢复的冗余代码，冗余的依赖注入。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;原模式&lt;/h1&gt;&lt;div&gt;TradeRefundOredrService通过直接调用方法，进行查询数据库，过滤，再根据策略模式得到对应策略类型，直接执行退单流程。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;且三种退单策略，都包含了MQ消息发送和库存量恢复的冗余代码，冗余的依赖注入。&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-506.5" y="-60" width="299" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-4" target="biKXRZFIHFBRoBO44sOl-6">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-4" target="biKXRZFIHFBRoBO44sOl-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-4" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;uc0fc7714&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;阶段一-退单操作&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ol&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u153ee742&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;客户端发起退单请求&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uee4522c0&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;通过责任链模式处理（数据加载-重复退单检查-策略执行）&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ud212fb5d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;根据订单状态和拼团状态选择对应的退单策略&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uf5ebc75c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;执行退单操作（更新数据库）&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u8a0bac82&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;发送 MQ 消息通知&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;ud30f9a34&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u0adcb4f3&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;阶段二-redis 库存回复&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ol&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uc9dac7b7&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;MQ 消息监听接受退单成功消息&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ue8c6d761&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;调用恢复库存服务&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ue8f9fff3&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;根据退单策略选择对应的策略&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u39b0fc3d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;执行 redis 库存恢复操作（分布式锁保护）&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-4" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;uc0fc7714&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;阶段一-退单操作&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ol&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u153ee742&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;客户端发起退单请求&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uee4522c0&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;通过责任链模式处理（数据加载-重复退单检查-策略执行）&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ud212fb5d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;根据订单状态和拼团状态选择对应的退单策略&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uf5ebc75c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;执行退单操作（更新数据库）&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u8a0bac82&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;发送 MQ 消息通知&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;ud30f9a34&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u0adcb4f3&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;阶段二-redis 库存回复&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin: 0; padding-left: 23px&quot; class=&quot;ne-ol&quot;&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;uc9dac7b7&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;MQ 消息监听接受退单成功消息&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ue8c6d761&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;调用恢复库存服务&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;ue8f9fff3&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;根据退单策略选择对应的策略&lt;/span&gt;&lt;/li&gt;&lt;li data-lake-index-type=&quot;0&quot; id=&quot;u39b0fc3d&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;执行 redis 库存恢复操作（分布式锁保护）&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-137" y="50" width="397" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-6" target="biKXRZFIHFBRoBO44sOl-8">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-6" target="biKXRZFIHFBRoBO44sOl-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-6" value="工厂模式&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u90a1512c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;TradeRefundRuleFilterFactory 组装责任链&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-6" value="工厂模式&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u90a1512c&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;TradeRefundRuleFilterFactory 组装责任链&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="165" width="202.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-8" target="biKXRZFIHFBRoBO44sOl-10">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-8" target="biKXRZFIHFBRoBO44sOl-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-12" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;数据加载-重复退单检查-策略执行&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="biKXRZFIHFBRoBO44sOl-11">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-12" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;数据加载-重复退单检查-策略执行&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="biKXRZFIHFBRoBO44sOl-11" vertex="1" connectable="0">
           <mxGeometry x="-0.2524" y="2" relative="1" as="geometry">
             <mxPoint x="38" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-8" value="责任链模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-8" value="责任链模式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="623" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-10" value="策略模式&lt;div&gt;IRefundOrderStrategy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-10" value="策略模式&lt;div&gt;IRefundOrderStrategy&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-13" value="模板方法模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-13" value="模板方法模式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="623" y="338" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.451;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="biKXRZFIHFBRoBO44sOl-13" target="biKXRZFIHFBRoBO44sOl-10">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.451;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="biKXRZFIHFBRoBO44sOl-13" target="biKXRZFIHFBRoBO44sOl-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="biKXRZFIHFBRoBO44sOl-17" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;AbstrateRefundOrderStartegy 提供公共方法和依赖注入&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="biKXRZFIHFBRoBO44sOl-17" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;AbstrateRefundOrderStartegy 提供公共方法和依赖注入&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="780" y="338" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mi7kiWuqDVVW8FySJd8--1" target="jMulSmVrZCIn3rS9HOym-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--1" value="Http退单接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="-770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mi7kiWuqDVVW8FySJd8--2" target="jMulSmVrZCIn3rS9HOym-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--2" value="退单定时任务job&lt;div&gt;超时退单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-327.5" y="-770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mi7kiWuqDVVW8FySJd8--8" target="mi7kiWuqDVVW8FySJd8--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--10" value="点击退单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mi7kiWuqDVVW8FySJd8--9">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mi7kiWuqDVVW8FySJd8--8" value="前端订单详情界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
