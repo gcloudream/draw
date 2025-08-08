@@ -1,10 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="第 1 页" id="02C8yGtnjhO-gYUigmYs">
-    <mxGraphModel dx="1419" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JrDR6b7AXKvNzVMpYLkq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JrDR6b7AXKvNzVMpYLkq-1" target="JrDR6b7AXKvNzVMpYLkq-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JrDR6b7AXKvNzVMpYLkq-1" target="5JkC0H6b_TjoU29ZHpFD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JrDR6b7AXKvNzVMpYLkq-1" value="服务治理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -99,6 +102,98 @@
         </mxCell>
         <mxCell id="JrDR6b7AXKvNzVMpYLkq-28" value="放行&lt;div&gt;jp.proceed()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1680" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-1" value="超时熔断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-3" target="5JkC0H6b_TjoU29ZHpFD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-6" value="加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-5">
+          <mxGeometry x="-0.0889" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-3" target="5JkC0H6b_TjoU29ZHpFD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-3" value="超时熔断中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-4" target="5JkC0H6b_TjoU29ZHpFD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-4" value="SpringBoot工程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-7" target="5JkC0H6b_TjoU29ZHpFD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-9" value="包装熔断框架&lt;div&gt;屏蔽调用逻辑&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-8">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-7" value="Hystrix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-10" target="5JkC0H6b_TjoU29ZHpFD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-18" value="2 切面技术" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-17">
+          <mxGeometry x="-0.2566" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-10" value="对需要超时熔断&lt;div&gt;的方法，加上自定义注解&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-12" target="5JkC0H6b_TjoU29ZHpFD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-14" value="1 用户发起请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-13">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-12" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-15" target="5JkC0H6b_TjoU29ZHpFD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-22" value="3调用熔断包装服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-21">
+          <mxGeometry x="-0.0643" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-15" value="DoHystrixPoint&lt;div&gt;切面入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-20" target="5JkC0H6b_TjoU29ZHpFD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-25" value="4 超时熔断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-24">
+          <mxGeometry x="-0.0583" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5JkC0H6b_TjoU29ZHpFD-20" target="5JkC0H6b_TjoU29ZHpFD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-28" value="4 未超时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5JkC0H6b_TjoU29ZHpFD-27">
+          <mxGeometry x="-0.0567" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-20" value="HystrixValveImpl&lt;div&gt;根据注解time&lt;/div&gt;&lt;div&gt;设置超时限制&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-23" value="getFallBack()&lt;div&gt;返回注解的returnJson()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JkC0H6b_TjoU29ZHpFD-26" value="放行&lt;div&gt;jp.proceed()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
