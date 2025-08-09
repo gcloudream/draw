@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.7">
   <diagram name="第 1 页" id="02C8yGtnjhO-gYUigmYs">
-    <mxGraphModel dx="1418" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3545" dy="3049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,7 +265,23 @@
         <mxCell id="QpEjH5OwyhMS9RFJxDmp-15" value="DoRateLimiterPoint&lt;div&gt;切面入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1420" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QpEjH5OwyhMS9RFJxDmp-19" value="RateLimiterValve&lt;div&gt;限流逻辑&lt;/div&gt;&lt;div&gt;加载速率映射器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QpEjH5OwyhMS9RFJxDmp-19" target="QpEjH5OwyhMS9RFJxDmp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-28" value="调用次数安全" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QpEjH5OwyhMS9RFJxDmp-27">
+          <mxGeometry x="-0.0345" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QpEjH5OwyhMS9RFJxDmp-19" target="QpEjH5OwyhMS9RFJxDmp-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-31" value="超量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QpEjH5OwyhMS9RFJxDmp-30">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-19" value="RateLimiterValve&lt;div&gt;限流逻辑&lt;/div&gt;&lt;div&gt;加载速率限流器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1654" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QpEjH5OwyhMS9RFJxDmp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QpEjH5OwyhMS9RFJxDmp-23" target="QpEjH5OwyhMS9RFJxDmp-19">
@@ -273,6 +289,12 @@
         </mxCell>
         <mxCell id="QpEjH5OwyhMS9RFJxDmp-23" value="构造线程安全的Map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1654" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-26" value="放行&lt;div&gt;jp.proceed()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpEjH5OwyhMS9RFJxDmp-29" value="返回注解的&lt;div&gt;returnJson()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="980" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
