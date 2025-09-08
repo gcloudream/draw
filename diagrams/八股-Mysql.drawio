@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <UserObject label="Mysql架构" link="https://xiaolincoding.com/mysql/base/how_select.html#mysql-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84" linkTarget="_blank" id="NEqfYgynjQvjeIbRlViL-1">
+        <UserObject label="Mysql架构" linkTarget="_blank" id="NEqfYgynjQvjeIbRlViL-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="90" y="130" width="120" height="60" as="geometry" />
           </mxCell>
