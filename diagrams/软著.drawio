@@ -1,9 +1,41 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
   <diagram name="第 1 页" id="zld7CJRybX5RpVqeA-Ws">
-    <mxGraphModel>
+    <mxGraphModel dx="817" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-6" edge="1" parent="1" source="WJpu1xXTlN6iRtZwenwU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WJpu1xXTlN6iRtZwenwU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="点云文件导入" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-7" edge="1" parent="1" source="WJpu1xXTlN6iRtZwenwU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WJpu1xXTlN6iRtZwenwU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="格式识别和属性读取" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-8" edge="1" parent="1" source="WJpu1xXTlN6iRtZwenwU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WJpu1xXTlN6iRtZwenwU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-9" connectable="0" parent="WJpu1xXTlN6iRtZwenwU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="俯视渲染" vertex="1">
+          <mxGeometry relative="1" x="-0.08" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="三维显示/楼层切割" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-10" edge="1" parent="1" source="WJpu1xXTlN6iRtZwenwU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WJpu1xXTlN6iRtZwenwU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="墙体建模、门窗标注" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WJpu1xXTlN6iRtZwenwU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="面积统计和结果导出" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
