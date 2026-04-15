@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="yj94AGlojYgGNtaJQKgs">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-9" edge="1" parent="1" source="G0jAgpon5UaeBQ_ine2X-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G0jAgpon5UaeBQ_ine2X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="多视角的RGB图像" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-10" edge="1" parent="1" source="G0jAgpon5UaeBQ_ine2X-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G0jAgpon5UaeBQ_ine2X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配准的点云数据" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-11" edge="1" parent="1" source="G0jAgpon5UaeBQ_ine2X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G0jAgpon5UaeBQ_ine2X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2D语义分割，使用sam3生成文本驱动的2d掩码" vertex="1">
+          <mxGeometry height="60" width="320" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-12" edge="1" parent="1" source="G0jAgpon5UaeBQ_ine2X-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G0jAgpon5UaeBQ_ine2X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="将2D掩码投影到相应的3D点" vertex="1">
+          <mxGeometry height="60" width="280" x="130" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-13" edge="1" parent="1" source="G0jAgpon5UaeBQ_ine2X-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G0jAgpon5UaeBQ_ine2X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="跨视角融合，根据多个视角3D点云，合并点簇" vertex="1">
+          <mxGeometry height="60" width="276" x="132" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="G0jAgpon5UaeBQ_ine2X-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输出兼容Pointcept的点云数据" vertex="1">
+          <mxGeometry height="60" width="278" x="132" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
