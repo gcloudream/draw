@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="mJIrbQKhyCo8NMBv10fB">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WGLB4719CQcEt5owOJx5-5" edge="1" parent="1" source="WGLB4719CQcEt5owOJx5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WGLB4719CQcEt5owOJx5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-1" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#006fbe, #ededed);" value="几何规则建模" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-6" edge="1" parent="1" source="WGLB4719CQcEt5owOJx5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WGLB4719CQcEt5owOJx5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#006fbe, #ededed);fillColor=default;gradientColor=none;" value="学习式结构恢复" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#006fbe, #ededed);" value="大模型结构化表达" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-7" edge="1" parent="1" source="WGLB4719CQcEt5owOJx5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WGLB4719CQcEt5owOJx5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGLB4719CQcEt5owOJx5-4" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#006fbe, #ededed);" value="Scan-to-BIM自动化" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
