@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="jwgnntsGJPOlj3ZbfLB1">
-    <mxGraphModel>
+    <mxGraphModel dx="1471" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-44" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6lRnOYnf_u4KeABGgXL1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2F80D0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="150" width="1520" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-45" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6lRnOYnf_u4KeABGgXL1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E86B6B;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="310" width="1520" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9B6BCB;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="210" width="1520" x="40" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#2F80D0;align=left;verticalAlign=middle;" value="1. 输入与动作设计" vertex="1">
+          <mxGeometry height="35" width="260" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#E86B6B;align=left;verticalAlign=middle;" value="2. 收益—风险评估" vertex="1">
+          <mxGeometry height="35" width="280" x="70" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#9B6BCB;align=left;verticalAlign=middle;" value="3. 决策与执行" vertex="1">
+          <mxGeometry height="35" width="240" x="70" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#7EA6D8;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="已接受的候选约束" vertex="1">
+          <mxGeometry height="60" width="310" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#7EA6D8;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="候选修正动作&#xa;墙段连接 / 墙段合并 / 房间闭合" vertex="1">
+          <mxGeometry height="60" width="420" x="530" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#7EA6D8;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="局部作用对象&#xa;相关墙体 / 房间 / 门窗开口" vertex="1">
+          <mxGeometry height="60" width="360" x="1060" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-12" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-9" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="6lRnOYnf_u4KeABGgXL1-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-13" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-10" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="6lRnOYnf_u4KeABGgXL1-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="收益评估  Gain(a)" vertex="1">
+          <mxGeometry height="55" width="320" x="340" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="结构完整性提升&#xa;缺失补全 / 闭合改善" vertex="1">
+          <mxGeometry height="85" width="230" x="110" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="几何一致性改善&#xa;偏差减小 / 对齐更好" vertex="1">
+          <mxGeometry height="85" width="230" x="370" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="拓扑关系改善&#xa;冲突减少 / 关系更合理" vertex="1">
+          <mxGeometry height="85" width="230" x="630" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#E86B6B;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="风险评估  Risk(a)" vertex="1">
+          <mxGeometry height="55" width="320" x="1045" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#E86B6B;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="几何偏移过大" vertex="1">
+          <mxGeometry height="85" width="170" x="930" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#E86B6B;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="影响对象过多" vertex="1">
+          <mxGeometry height="85" width="170" x="1120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#E86B6B;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="新增拓扑冲突" vertex="1">
+          <mxGeometry height="85" width="170" x="1310" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D9;strokeColor=#E6A23C;strokeWidth=2;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="综合评估&lt;br&gt;Net(a) = Gain(a) - Risk(a)" vertex="1">
+          <mxGeometry height="60" width="520" x="535" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="执行修正&#xa;净收益高，风险可控" vertex="1">
+          <mxGeometry height="70" width="300" x="160" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="暂缓处理&#xa;证据不足或风险不确定" vertex="1">
+          <mxGeometry height="70" width="300" x="650" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="保留原模型&#xa;净收益低或风险过高" vertex="1">
+          <mxGeometry height="70" width="300" x="1140" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="局部结构修正&#xa;更新相关几何与关系" vertex="1">
+          <mxGeometry height="65" width="300" x="160" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="记录不确定性&#xa;待后续补充证据" vertex="1">
+          <mxGeometry height="65" width="300" x="650" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAFB;strokeColor=#A77CC7;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="不执行修改&#xa;保持已有正确结构" vertex="1">
+          <mxGeometry height="65" width="300" x="1140" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-40" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-31" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="6lRnOYnf_u4KeABGgXL1-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-41" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-32" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="6lRnOYnf_u4KeABGgXL1-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6lRnOYnf_u4KeABGgXL1-42" edge="1" parent="1" source="6lRnOYnf_u4KeABGgXL1-33" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="6lRnOYnf_u4KeABGgXL1-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
