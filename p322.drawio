@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="WEQTmtFC63CSafmH9bfC">
-    <mxGraphModel>
+    <mxGraphModel dx="1593" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ObyWurZgxZucqlC7liIY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F28C28;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="120" width="1520" x="40" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4FA564;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="350" width="1520" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2F80D0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="170" width="1520" x="40" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#F28C28;align=left;verticalAlign=middle;" value="1. 输入与定位" vertex="1">
+          <mxGeometry height="40" width="250" x="70" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#3F9B52;align=left;verticalAlign=middle;" value="2. 多证据评分" vertex="1">
+          <mxGeometry height="40" width="250" x="70" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#2F80D0;align=left;verticalAlign=middle;" value="3. 综合判定" vertex="1">
+          <mxGeometry height="40" width="250" x="70" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E5;strokeColor=#F28C28;strokeWidth=2;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" value="候选语义约束 c" vertex="1">
+          <mxGeometry height="60" width="400" x="390" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E5;strokeColor=#F28C28;strokeWidth=2;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" value="确定作用对象与局部点云区域" vertex="1">
+          <mxGeometry height="60" width="400" x="930" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-11" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-9" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="ObyWurZgxZucqlC7liIY-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-12" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-10" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="ObyWurZgxZucqlC7liIY-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="235" />
+              <mxPoint x="450" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-31" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ObyWurZgxZucqlC7liIY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="几何证据 Eg&#xa;点云支撑&#xa;残差 / 距离 / 角度&#xa;投影重叠率" vertex="1">
+          <mxGeometry height="135" width="245" x="330" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-35" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ObyWurZgxZucqlC7liIY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="拓扑证据 Et&#xa;连接一致性&#xa;边界闭合度&#xa;宿主关系一致性" vertex="1">
+          <mxGeometry height="135" width="245" x="610" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-33" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ObyWurZgxZucqlC7liIY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="缺失惩罚 U&#xa;点云稀疏&#xa;遮挡缺失&#xa;观测不完整" vertex="1">
+          <mxGeometry height="135" width="245" x="880" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-34" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ObyWurZgxZucqlC7liIY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;" value="修正风险 R&#xa;修改幅度&#xa;影响对象数&#xa;新增冲突" vertex="1">
+          <mxGeometry height="135" width="245" x="1150" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF8EF;strokeColor=#4FA564;strokeWidth=2;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="综合可信度评分&#xa;S(c)=αEg(c)+βEt(c)-γU(c)-δR(c)" vertex="1">
+          <mxGeometry height="70" width="510" x="545" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-22" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-17" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="ObyWurZgxZucqlC7liIY-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="625" />
+              <mxPoint x="410" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-23" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-17" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="ObyWurZgxZucqlC7liIY-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-24" edge="1" parent="1" source="ObyWurZgxZucqlC7liIY-17" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" target="ObyWurZgxZucqlC7liIY-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="625" />
+              <mxPoint x="1190" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#2F80D0;strokeWidth=2;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;" value="接受&#xa;证据充分，风险可控&#xa;进入后续修正" vertex="1">
+          <mxGeometry height="80" width="300" x="260" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#2F80D0;strokeWidth=2;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;" value="拒绝&#xa;与观测或关系冲突&#xa;不执行修正" vertex="1">
+          <mxGeometry height="80" width="300" x="650" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ObyWurZgxZucqlC7liIY-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#2F80D0;strokeWidth=2;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;" value="暂缓&#xa;证据不足&#xa;记录不确定性" vertex="1">
+          <mxGeometry height="80" width="300" x="1040" y="693" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
